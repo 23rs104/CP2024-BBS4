@@ -23,6 +23,13 @@ let currentEditId = null;
 // ログイン中のユーザ
 let currentUser = null;
 
+var date = new Date();
+var year = date.getFullYear();
+var month = date.getMonth() + 1;
+var day = date.getDate();
+var today = year + " 年" + month + " 月" + day + " 日";
+document.writeln(today);
+
 // メッセージ表示処理
 function showMessage(message, type = 'success') {
     const messageArea = $('#messageArea');
