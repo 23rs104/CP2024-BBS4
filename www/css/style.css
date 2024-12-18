@@ -496,7 +496,7 @@ textarea.form-control {
 
 #userEmail {
     font-weight: 600;
-    color: #495057;
+    color:  #495057;
 }
 
 /* 表示制御 */
@@ -510,10 +510,10 @@ textarea.form-control {
 
 #btnB {
 font-size: 20px;
-position:absolute; top:30px; left:50%; width:20%; height:30px;
+position:absolute; top:10px; left:60%; width:20%; height:30px;
 }
 
 #btnR {
 font-size: 20px;
-position:absolute; top:30px; left:70%; width:20%; height:30px;
+position:absolute; top:10px; left:80%; width:20%; height:30px;
 }
