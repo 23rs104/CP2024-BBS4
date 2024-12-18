@@ -504,6 +504,7 @@ $(function() {
 
     // 投稿一覧の初期読み込み
     loadPosts();
+
 });
 
 // クリーンアップ処理
@@ -543,11 +544,6 @@ window.addEventListener('unload', function() {
 
         <!-- ログイン情報（ログイン時表示） -->
         <div class="user-info logged-in">
-            <span>登録ニックネーム：<span id=""></span></span>
-            <input type="Nname" class="form-control">
-            <button id="Nnamebutton"class="btn-secondary">登録</button>
-        </div>
-        <div class="user-info logged-in">
             <span>ログイン中：<span id="userEmail"></span></span>
             <button id="logoutButton" class="btn-secondary">ログアウト</button>
         </div>
@@ -558,7 +554,7 @@ window.addEventListener('unload', function() {
                 <label for="contentInput">投稿内容</label>
                 <textarea id="contentInput" class="form-control" 
                           placeholder="投稿内容を入力してください"></textarea>
-                <small class="character-count" id="contentCount">0/1000</small>
+                <small class="character-count" id="contentCount">1000</small>
             </div>
             <div class="button-group">
                 <button id="postButton" class="btn-primary">投稿する</button>
