@@ -516,6 +516,10 @@ $(function() {
         $("body").css("background-color", "blue");
     });
 
+    $('#btnR').on('click', function() {
+        $("body").css("background-color", "#f8f9fa");
+    });
+
 });
 
 // クリーンアップ処理
@@ -531,6 +535,7 @@ window.addEventListener('unload', function() {
     <div class="container">
         <h1>掲示板アプリ</h1>
         <button id="btnB">blue</button>
+        <button id="btnR">reset</button>
         
         <!-- メッセージ表示エリア -->
         <div id="messageArea"></div>
