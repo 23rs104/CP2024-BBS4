@@ -512,6 +512,10 @@ $(function() {
     // 投稿一覧の初期読み込み
     loadPosts();
 
+    $('#btnB').on('click', function() {
+        $("body").css("background-color", "blue");
+    });
+
 });
 
 // クリーンアップ処理
@@ -526,6 +530,7 @@ window.addEventListener('unload', function() {
 <body>
     <div class="container">
         <h1>掲示板アプリ</h1>
+        <button id="btnB">blue</button>
         
         <!-- メッセージ表示エリア -->
         <div id="messageArea"></div>
