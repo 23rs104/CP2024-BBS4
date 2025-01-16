@@ -30,6 +30,7 @@ var day = date.getDate();
 var today = year + " 年" + month + " 月" + day + " 日";
 document.writeln(today);
 
+
 // メッセージ表示処理
 function showMessage(message, type = 'success') {
     const messageArea = $('#messageArea');
@@ -536,6 +537,7 @@ window.addEventListener('unload', function() {
         <h1>掲示板アプリ</h1>
         <button id="btnB">blue</button>
         <button id="btnR">white</button>
+        
         
         <!-- メッセージ表示エリア -->
         <div id="messageArea"></div>
